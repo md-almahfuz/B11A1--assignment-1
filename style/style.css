@@ -117,7 +117,7 @@ nav ul li {
     display: flex;
     /* align-items: center; */
     justify-content: space-around;
-    margin : 50px 200px;
+    margin : 50px 100px;
     /* margin: 40px 35px 20px 100px;  */
     background-color: #C6E4D6;
     border-radius: 20px;
@@ -149,7 +149,7 @@ nav ul li {
     display: flex;
     /* gap: 10px; */
     justify-content: space-between;
-    margin : 50px 200px;
+    margin : 50px 100px;
     /* margin-top: 50px;        */
 }
 
@@ -167,6 +167,7 @@ nav ul li {
     box-shadow: 0px 6px 50px 0;
     border-radius: 10px;
     width: 244px;
+    cursor: pointer;
     /* height: 30px; */
 }
 
@@ -175,7 +176,7 @@ nav ul li {
     font-weight: 800;
     color: #0E0E0E; 
     text-align: auto;
-    margin : 50px 200px;
+    margin : 50px 100px;
 
     /* margin-top: 100px; */
 
@@ -185,7 +186,7 @@ nav ul li {
     font-weight: 800;
     color: #0E0E0E; 
     text-align: auto;
-    margin : 50px 200px;
+    margin : 50px 100px;
 
     /* margin-top: 100px; */
 
@@ -194,7 +195,7 @@ nav ul li {
     font-size: 16px;
     color: #757575;
     text-align: auto;
-    margin : 50px 200px;
+    margin : 50px 100px;
 
     /* margin-top: 20px; */
 }
@@ -203,7 +204,7 @@ nav ul li {
     display: flex;
     /* gap: 10px; */
     justify-content: space-between;
-    margin : 50px 200px;
+    margin : 50px 100px;
     /* margin-top: 50px;        */
 }
 /* Visions Styling */
@@ -223,6 +224,7 @@ nav ul li {
     box-shadow: 0px 6px 50px 0;
     border-radius: 10px;
     width: 325px;
+    cursor: pointer;
     /* height: 30px; */
 }
 
@@ -240,6 +242,7 @@ nav ul li {
     box-shadow: 0px 6px 50px 0;
     border-radius: 10px;
     width: 325px;
+    cursor:pointer;
     /* height: 30px; */
 }
 
@@ -257,6 +260,7 @@ nav ul li {
     box-shadow: 0px 6px 50px 0;
     border-radius: 10px;
     width: 325px;
+    cursor:pointer;
     /* height: 30px; */
 }
 
@@ -378,7 +382,7 @@ table, td {
     /* display: flex; */
     /* gap: 10px; */
     /* justify-content: space-between; */
-    margin : 50px 200px;
+    margin : 40px 100px; */
     /* margin-top: 50px;        */
 }
 .feedback-desc{
@@ -386,7 +390,7 @@ table, td {
     padding: 20px;
     /* box-shadow: 0px 6px 50px 0; */
     border-radius: 10px;
-    width: 1280px;
+    width: 1150px;
 
 }
 
@@ -395,7 +399,7 @@ table, td {
     display: flex;
     /* align-items: center; */
     justify-content: space-around;
-    margin : 50px 200px;
+    margin : 50px 100px;
     /* margin: 40px 35px 20px 100px;  */
     background-color: white;
     border-radius: 20px;
@@ -420,7 +424,7 @@ table, td {
     font-weight: 800;
     color: #0E0E0E; 
     text-align: auto;
-    margin : 50px 200px;
+    margin : 50px 100px;
 
     /* margin-top: 100px; */
 
@@ -430,17 +434,17 @@ table, td {
     font-size: 16px;
     color: #757575;
     text-align: auto;
-    margin : 50px 200px;
+    margin : 50px 100px;
 
     /* margin-top: 20px; */
 }
 .news-container{
     display: flex;
-    flex-direction: column;  */
+    flex-direction: column;  
     /* width: 1280px; */
     /* gap: 10px; */
     justify-content: space-around; 
-    margin : 50px 200px;
+    margin : 50px 100px;
     /* margin-top: 50px;        */
     border-radius: 30px;  
     background-color: white;
@@ -499,7 +503,7 @@ table, td {
     font-weight: 800;
     color: #0E0E0E; 
     text-align: center;
-    margin : 50px 200px;
+    margin : 50px 100px;
 
     /* margin-top: 100px; */
 
@@ -517,7 +521,7 @@ table, td {
     font-size: 16px;
     color: #757575;
     text-align: center;
-    margin : 50px 250px;
+    margin : 50px 150px;
 
     /* margin-top: 20px; */
 }
@@ -527,23 +531,23 @@ table, td {
     flex-direction: column;
     /* gap: 10px; */
     /* justify-content: space-around; */
-     margin : 50px 200px; 
+     margin : 50px 100px; 
     /* margin-top: 50px;        */
 }
 .donation-amounts{
     display: flex;
     gap: 5px; 
     justify-content: space-around;
-    /* margin : 50px 150px;    */
+    /* margin : 50px 80px;     */
     border-radius: 50px; 
-    margin-bottom: 50px;      
+    /* margin-bottom: 50px;       */
 }
 
 .donation-amounts-other{
     display: flex; 
-    width : 100%;
+    /* width : 100%; */
     justify-content: space-around;
-    margin : 50px 150px;    
+    margin : 30px 120px;    
     border-radius: 50px; 
          
 }
@@ -551,7 +555,7 @@ table, td {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1032px;
+    width: 950px;
     height: 64px;
     background-color:white;
     border-radius: 10px; 
@@ -564,7 +568,7 @@ table, td {
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: space-around; */
-    margin : 50px 200px;
+    margin : 50px 100px;
     /* margin: 40px 35px 20px 100px;  */
     /* background-color: white; */
     border-radius: 20px;
