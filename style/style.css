@@ -548,11 +548,12 @@ table, td {
 }
 
 .donation-amounts-other{
-    display: flex; 
-    /* width : 100%;  */
-    justify-content: space-evenly;
-    margin : 50px 100px;    
+    /* display: flex;  */
+    width : 1032px;  
+    /* justify-content: space-evenly; */
+    margin : 50px 180px;    
     border-radius: 50px; 
+    position: center;
          
 }
 .donation-amount{
