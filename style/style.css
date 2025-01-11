@@ -534,7 +534,7 @@ table, td {
     display: flex;
     flex-direction: column;
     /* gap: 10px; */
-    /* justify-content: space-around; */
+    justify-content: space-between; 
      margin : 50px 100px; 
     /* margin-top: 50px;        */
 }
