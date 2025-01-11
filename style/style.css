@@ -84,6 +84,23 @@ nav ul li {
    /* border-radius: 5px;
     text-decoration: none; */
   }
+  .donation-btn{
+    border-radius: 8px; 
+    border: 2px solid #F1F1F3;
+    padding: 15px 20px;
+    width: 252px;
+    height: 128px;
+    color: black;
+    background-color: white;
+    font-size:40px;
+    /* font-family: "Fira Sans", serif; */
+   /* color: #006A50;
+    
+    border: 2px solid #006A50;
+    border-radius:rounded-corner;  */
+   /* border-radius: 5px;
+    text-decoration: none; */
+  }
 
  /* Banner Styles  */
  .banner{
@@ -352,7 +369,7 @@ nav ul li {
 }
 .news-container{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;  */
     /* width: 1280px; */
     /* gap: 10px; */
     justify-content: space-around; 
@@ -366,9 +383,20 @@ nav ul li {
     display: flex;
     gap: 30px; 
     justify-content: space-around;
-    margin : 50px 50px;  */
+    margin : 50px 50px;  
     margin-top: 50px;
     border-radius: 50px;       
+}
+
+.news-headings{
+    display: flex;
+    /* width: 1280px; */
+    gap: 30px; 
+    justify-content: space-around; 
+    /* margin : 50px 200px; */
+    /* margin-top: 50px;        */
+    border-radius: 30px;  
+    background-color: white;
 }
 
 .news-details{
@@ -381,12 +409,88 @@ nav ul li {
     background-color: #FFF8F3;
     border-radius: 10px; */
 }
+.news-image{
+    /* display: flex; */
+    border-radius: 20px; 
+}
 
 .news-icon{
     
     width: 134px;
     
     
+}
+
+.btn-news{
+    width: 180px;
+}
+
+
+/* Style Donation Section */
+.donations-title {
+    font-size: 40px;
+    font-weight: 800;
+    color: #0E0E0E; 
+    text-align: center;
+    margin : 50px 200px;
+
+    /* margin-top: 100px; */
+
+}
+
+.donations{
+    /* display: flex; */
+    /* gap: 10px; */
+    justify-content: space-between;
+    margin : 50px 120px;
+    text-align: center;
+    /* margin-top: 50px;        */
+}
+.donetions-description {
+    font-size: 16px;
+    color: #757575;
+    text-align: center;
+    margin : 50px 250px;
+
+    /* margin-top: 20px; */
+}
+
+.donations-container{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    /* justify-content: space-around; */
+     margin : 50px 200px; 
+    /* margin-top: 50px;        */
+}
+.donation-amounts{
+    display: flex;
+    gap: 5px; 
+    justify-content: space-around;
+    /* margin : 50px 150px;    */
+    border-radius: 50px; 
+    margin-bottom: 50px;      
+}
+
+.donation-amounts-other{
+    display: flex; 
+    width : 100%;
+    justify-content: space-around;
+    margin : 50px 150px;    
+    border-radius: 50px; 
+         
+}
+.donation-amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1032px;
+    height: 64px;
+    background-color:white;
+    border-radius: 10px; 
+    margin : 50px 60px; 
+    text-align: center;
+    font-size: 20px;
 }
 
 body {
