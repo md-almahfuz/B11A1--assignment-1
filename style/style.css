@@ -89,6 +89,7 @@ nav ul li {
    /* border-radius: 5px;
     text-decoration: none; */
   }
+  /* Donation button style */
   .donation-btn{
     border-radius: 8px; 
     border: 2px solid #F1F1F3;
@@ -406,6 +407,7 @@ table, td {
     padding: 50px 50px;
 };
 
+
 .quote-container{
     display: flex;
     /* gap: 10px; */
@@ -413,6 +415,8 @@ table, td {
     flex-direction: vertical;
     justify-content:space-around;
     background-color: white;
+    background-image: image('../assets/quote-bg.png');
+    
     margin : 50px 200px;
     /* margin-top: 50px;        */
 }
@@ -513,7 +517,7 @@ table, td {
     /* display: flex; */
     /* gap: 10px; */
     justify-content: space-between;
-    margin : 50px 120px;
+    margin : 50px 100px;
     text-align: center;
     /* margin-top: 50px;        */
 }
@@ -545,9 +549,9 @@ table, td {
 
 .donation-amounts-other{
     display: flex; 
-    /* width : 100%; */
-    justify-content: space-around;
-    margin : 30px 120px;    
+    /* width : 100%;  */
+    justify-content: space-evenly;
+    margin : 50px 100px;    
     border-radius: 50px; 
          
 }
